@@ -39,13 +39,13 @@ title:"Digital Camera", img:"",price:$120, discount:12.03
 },
 {
 title:"Hijab", img:"", price:$20, discount:2
-},
+}
  ]
 
   return (
     <main className="main">
       {
-        
+
       }
     </main>
   )
