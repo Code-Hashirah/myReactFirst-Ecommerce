@@ -1,6 +1,10 @@
+import  React from 'react'
+import './App.css'
 function Products(props){
     return(
-        <section>
+        <div>
+              
+              <section>
         <h3>{props.title}</h3>
         <img src={props.img} alt="img" />
         Price: {props.price} <br />
@@ -10,6 +14,8 @@ function Products(props){
             <button className="button">Buy</button>
         </div>
         </section>
+        </div>
+       
         
     )
 }
